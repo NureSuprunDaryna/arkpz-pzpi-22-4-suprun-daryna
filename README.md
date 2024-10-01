@@ -1,1 +1,3 @@
-# arkpz-pzpi-22-4-suprun-daryna
+ПЗПІ-22-4
+
+Супрун Дарина
