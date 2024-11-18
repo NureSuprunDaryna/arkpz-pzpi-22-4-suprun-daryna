@@ -1,0 +1,278 @@
+﻿Vision and Scope Document
+for
+Elixir Nocturne
+Version 1.0 approved
+Prepared by Suprun Daryna
+
+
+12/11/2024
+Table of Contents
+
+
+Table of Contents        ii
+Revision History        ii
+1.        Business Requirements        1
+1.1.        Background        1
+1.2.        Business Opportunity        1
+1.3.        Business Objectives and Success Criteria        1
+1.4.        Customer or Market Needs        1
+1.5.        Business Risks        1
+2.        Vision of the Solution        2
+2.1.        Vision Statement        2
+2.2.        Major Features        2
+2.3.        Assumptions and Dependencies        2
+3.        Scope and Limitations        2
+3.1.        Scope of Initial Release        2
+3.2.        Scope of Subsequent Releases        2
+3.3.        Limitations and Exclusions        3
+4.        Business Context        3
+4.1.        Stakeholder Profiles        3
+4.2.        Project Priorities        4
+4.3.        Operating Environment        4
+
+
+
+
+
+
+
+
+Revision History
+
+
+
+
+Name
+	Date
+	Reason For Changes
+	Version
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+Посилання на відео: https://youtu.be/ugAhjDUJXUE
+1. Business Requirements
+<The business requirements provide the foundation and reference for all detailed requirements development. You may gather business requirements from the customer or development organization’s senior management, an executive sponsor, a project visionary, product management, the marketing department, or other individuals who have a clear sense of why the project is being undertaken and the ultimate value it will provide, both to the business and to customers.>
+   1. Background: Аналіз проблеми, яку вирішує програмна система 
+<This section summarizes the rationale for the new product. Provide a general description of the history or situation that leads to the recognition that this product should be built.>
+Опис проблеми: сучасний ринок парфумерії не враховує індивідуальні потреби користувачів, які прагнуть створити унікальні аромати для конкретних подій, настроїв чи сезонів. Зазвичай покупці обирають аромати наосліп, покладаючись на суб’єктивні поради консультантів або загальні рекомендації брендів. Такий підхід обмежує можливість повного вираження особистості через аромат. Крім того, відсутність інтеграції з сучасними технологіями, такими як штучний інтелект, IoT і веб-інтерфейс, не дозволяє автоматизувати процес підбору і створення ароматів для різних платформ, задовольняючи індивідуальні вподобання та надаючи користувачам гнучкість у виборі інструменту для взаємодії.
+        Мета проєкту: створити інноваційну платформу, яка об’єднує штучний інтелект, IoT-пристрій , мобільний застосунок та веб-інтерфейс для персоналізованого підбору ароматів. Система дозволяє користувачам легко створювати унікальні композиції, адаптовані до їхніх настроїв, зовнішнього вигляду, сезонності та умов навколишнього середовища. Мобільний застосунок і веб-платформа забезпечують багатоканальний доступ до функціоналу, надаючи користувачам інтерактивний і зручний досвід створення ароматів.
+
+
+   2. Business Opportunity: Аналіз аналогів
+<Describe the market opportunity that exists or the business problem that is being solved. Describe the market in which a commercial product will be competing or the environment in which an information system will be used. This may include a brief comparative evaluation of existing products and potential solutions, indicating why the proposed product is attractive. Identify the problems that cannot currently be solved without the product, and how the product fits in with market trends or corporate strategic directions.>
+
+
+Для успішної реалізації проєкту "Elixír Nocturne" важливо не лише зрозуміти його мету, але й оцінити існуючі рішення на ринку. Аналіз конкурентів дозволяє визначити сильні та слабкі сторони подібних продуктів, виявити ринкові ніші, а також сформувати унікальні переваги нашої системи.
+1. Parfumado
+Parfumado – це сервіс підписки на парфуми, орієнтований на тих, хто хоче випробувати різноманітні аромати без необхідності купувати повнорозмірні флакони. За фіксовану щомісячну плату клієнти отримують доступ до широкого каталогу, що включає понад 400 брендових ароматів, та можуть обрати один міні-флакон на місяць. Ця модель дозволяє користувачам експериментувати з вибором та знайти свій ідеальний аромат у комфортних умовах.
+        Parfumado приваблює своєю доступністю та простотою. Для багатьох користувачів це вигідна можливість спробувати нові аромати без значних витрат. Однак, сервіс має суттєві обмеження: він не пропонує жодної персоналізації або інноваційного підходу. Користувачі можуть обирати лише з готових продуктів і не мають можливості створювати унікальні аромати, які відповідали б їхньому настрою чи подіям.
+        На відміну від Parfumado, "Elixír Nocturne" не просто пропонує тестувати аромати, а дає користувачам повний контроль над створенням індивідуальних композицій. 
+2. My Scent App
+My Scent App — це мобільний додаток, який допомагає користувачам підібрати аромат на основі анкети. Користувачі відповідають на запитання про свої вподобання, стиль життя, події або бажаний ефект від аромату, а система пропонує кілька варіантів із доступного каталогу. Для новачків у світі парфумерії це зручний і швидкий спосіб знайти аромат, який їм підходить.
+        Однак, My Scent App має значні обмеження. Хоча інтерфейс є простим і зручним, додаток лише рекомендує готові продукти і не надає можливості створювати власні аромати. Відсутність технологій штучного інтелекту чи інтерактивних інструментів також знижує привабливість додатку для досвідчених користувачів, які прагнуть більшого залучення.
+        "Elixír Nocturne" суттєво перевершує My Scent App, оскільки пропонує повноцінний персоналізований досвід. Користувач може не лише отримати рекомендації, але й створювати унікальні аромати за допомогою AI, налаштовувати їх у реальному часі та зберігати для майбутнього використання.
+3. Jo Malone Fragrance Combining
+Jo Malone пропонує концепцію комбінування ароматів, яка дозволяє клієнтам змішувати готові парфуми з асортименту бренду. Це елегантне рішення для тих, хто хоче створити нову композицію на основі перевірених формул. У магазинах бренду консультанти допомагають клієнтам підібрати комбінацію, яка відповідає їхнім уподобанням.
+        Ця модель ідеально підходить для преміум-сегменту, де клієнти цінують бренд та якість продукту. Проте Jo Malone має суттєві обмеження. По-перше, змішування можливе лише з ароматів бренду, що значно зменшує варіативність. По-друге, процес є доступним лише у фізичних магазинах, що ускладнює доступ для більшості клієнтів. Відсутність технологій також обмежує інтерактивність процесу.
+        На відміну від Jo Malone, "Elixír Nocturne" відкриває більше можливостей. Користувач може створювати унікальні композиції без прив’язки до конкретного бренду, використовуючи потужний інструмент AI та IoT. Крім того, мобільний додаток і веб-інтерфейс забезпечують доступність платформи з будь-якої точки світу.
+4. Scentbird
+Scentbird є одним із найбільш популярних сервісів підписки на парфуми у США. Його модель дуже схожа на Parfumado: користувачі сплачують щомісячну підписку та отримують міні-флакони з ароматами на вибір. Каталог сервісу включає понад 500 ароматів, включаючи продукти популярних брендів.
+        Головною перевагою Scentbird є простота і доступність. Користувачі можуть легко змінювати аромат щомісяця та експериментувати з різними брендами. Однак, як і у випадку з Parfumado, сервіс обмежений лише готовими продуктами. Персоналізація відсутня, а клієнт не може впливати на створення або налаштування аромату.
+        "Elixír Nocturne" значно перевершує Scentbird завдяки своїй інтерактивності. Можливість створювати, змінювати та тестувати аромати за допомогою IoT-диспансера та AI дозволяє користувачам отримати справжній персоналізований досвід.
+Таким чином, на сучасному ринку парфумерії більшість існуючих рішень пропонують лише обмежену функціональність. Сервіси підписки, такі як Parfumado чи Scentbird, орієнтовані на масовий ринок, але не надають можливості персоналізації. My Scent App є корисним інструментом для підбору готових ароматів, але не забезпечує інтерактивного досвіду. Jo Malone, попри ексклюзивність, обмежений лише власним асортиментом.
+        "Elixír Nocturne" виділяється серед аналогів завдяки унікальному поєднанню інноваційних технологій і творчості. Інтеграція AI та IoT відкриває новий рівень персоналізації, роблячи процес створення ароматів не лише функціональним, але й емоційно захоплюючим. Це рішення підходить як для індивідуальних користувачів, так і для магазинів, які прагнуть підвищити якість обслуговування своїх клієнтів.
+   3. Business Objectives and Success Criteria
+<Describe the important business objectives of the product in a way that is quantitative and measurable. The value provided to customers is described in section 1.4, so this section should focus on the value provided to the business. This could include estimates of revenue or cost savings, return on investment analysis, or target release dates. Determine how success will be defined and measured on this project, and describe the factors that are likely to have the greatest impact on achieving that success. Include things within the direct control of the organization, as well as external factors. Establish measurable criteria to assess whether the business objectives have been met.>
+   4. Customer or Market Needs
+<Describe the needs of typical customers or market segments, including needs that are not yet met by the marketplace or by existing systems. You may wish to describe problems customers currently encounter that the new product will (or will not) address and how the product would be used by customers. Identify the customer hardware and software environment in which the product must operate. Define at a high level any known critical interface or performance requirements. Avoid including any design or implementation details. Present the requirements in a numbered list so that more detailed user or functional requirements can be traced to them.>
+   5. Business Risks
+<Summarize the major business risks associated with developing this product, such as marketplace competition, timing issues, user acceptance, implementation issues, or possible negative impacts on the business. Estimate the severity of the risks and identify any risk mitigation actions that could be taken.>
+2. Vision of the Solution
+<This section establishes a long-term vision for the system to be built to address the business objectives. This vision will provide the context for making decisions throughout the course of the product development life cycle. The vision should not include detailed functional requirements or project planning information.>
+   6. Vision Statement: Опис призначення системи
+<Write a concise vision statement that summarizes the purpose and intent of the new product and describes what the world will be like when it includes the product. The vision statement should reflect a balanced view that will satisfy the needs of diverse customers as well as those of the developing organization. It may be somewhat idealistic, but it should be grounded in the realities of existing or anticipated customer markets, enterprise architectures, organizational strategic directions, and cost and resource limitations.>
+
+
+Система "Elixír Nocturne" створена для того, щоб змінити уявлення про парфумерію, надаючи кожному користувачу можливість стати творцем свого унікального аромату. Її головне призначення — надати сучасний інструмент, який дозволить створювати персоналізовані ароматичні композиції, адаптовані до настрою, стилю, події чи умов навколишнього середовища. Це більше, ніж просто платформа — це персональний помічник, який допомагає реалізувати творчий підхід у парфумерії за допомогою інноваційних технологій.
+"Elixír Nocturne" орієнтована на декілька основних груп користувачів:
+1. Індивідуальні користувачі: Система призначена для людей, які хочуть створювати аромати, що ідеально підходять під їхній настрій чи певну подію, наприклад, побачення, ділову зустріч або вечірку. Вони можуть отримати рекомендації, які враховують їхні вподобання, або створювати композиції з нуля.
+2. Магазини парфумерії: За допомогою інтеграції IoT-диспансера магазини можуть запропонувати своїм клієнтам унікальний сервіс, що дозволяє створювати аромати на місці, роблячи процес покупки персоналізованим і захоплюючим.
+3. Нішеві бренди: Для малих і середніх парфумерних бізнесів система допомагає автоматизувати процес створення нових ароматів, знижуючи витрати та скорочуючи час на розробку унікальних композицій.
+Система має чітко визначені функції, які я розробила у форматі MF:
+Major Features (Головна функціональність):
+MF-1. Підбір ароматів за допомогою AI
+Штучний інтелект аналізує введені користувачем дані, такі як опис настрою, події чи умов, і пропонує ідеальні комбінації ароматичних нот. Завдяки цьому користувачі можуть швидко створювати персоналізовані композиції, які відповідають їхнім естетичним та емоційним уподобанням.
+MF-2. Створення та збереження персоналізованих ароматів
+Система дозволяє користувачам створювати унікальні ароматичні композиції, регулювати пропорції та інтенсивність ароматичних нот, а також зберігати їх у персональному профілі. Це забезпечує легкий доступ до створених формул для їхнього повторного використання або подальшого редагування.
+MF-3. Змішування ароматів через IoT-диспансер
+IoT-диспансер надає можливість автоматичного змішування фізичних ароматів із кількох резервуарів для есенцій. Користувачі можуть керувати цим процесом через мобільний додаток або веб-інтерфейс, налаштовуючи пропорції та інтенсивність нот у реальному часі.
+MF-4. Автоматизовані персоналізовані підбірки
+На основі збережених даних про попередні створені композиції та вподобання користувачів, система автоматично генерує персоналізовані рекомендації ароматів. Це дозволяє швидко знаходити нові цікаві композиції, які відповідають унікальним смакам кожного користувача, розширюючи їхній досвід взаємодії із системою.
+
+
+   7. Major Features: Опис бізнес-логіки системи
+<Include a numbered list of the major features of the new product, emphasizing those features  that distinguish it from previous or competing products. Specific user requirements and functional requirements may be traced back to these features.>
+
+
+Система "Elixír Nocturne" створена для того, щоб зробити процес створення парфумів простим, персоналізованим і захоплюючим. Її бізнес-логіка побудована таким чином, щоб користувачі могли отримати унікальний аромат, повністю адаптований до їхніх уподобань і потреб, використовуючи сучасні технології штучного інтелекту (AI) та інтеграцію з IoT-пристроями. Розгляньмо детально, як працює система.
+        Все починається з інтерактивної взаємодії з користувачем. Через мобільний додаток або веб-інтерфейс система збирає інформацію, яка стане основою для створення аромату. Користувачі можуть описати свій настрій, наприклад, “романтичний” чи “енергійний”, вказати мету використання аромату (наприклад, для побачення або важливої зустрічі), а також свої вподобання щодо ароматичних нот (цитрусові, деревні, квіткові тощо). Додатково система враховує сезонність або погодні умови, щоб запропонувати найбільш релевантні варіанти.
+        Зібравши інформацію, система використовує штучний інтелект для аналізу. AI моделює ідеальні комбінації ароматичних нот, враховуючи як вподобання користувача, так і закономірності взаємодії нот між собою. Якщо користувач вже створював аромати в минулому, система бере до уваги ці дані, щоб зробити рекомендації ще більш точними. У результаті користувач отримує кілька попередньо згенерованих композицій, які відповідають його запитам.
+        На наступному етапі користувач може вибрати одну з запропонованих композицій або налаштувати її вручну. Це дозволяє відчути себе справжнім творцем: змінювати пропорції ароматичних нот, коригувати інтенсивність і підбирати баланс між базовими, середніми й верхніми нотами. Завдяки інтуїтивно зрозумілому інтерфейсу користувачі мають повний контроль над створенням свого аромату.
+        Для тих, хто має доступ до IoT-диспансера, система забезпечує реальний фізичний процес створення аромату. Після завершення налаштувань система передає команди IoT-диспансеру, який змішує ароматичні есенції із резервуарів відповідно до заданих параметрів. Усе це відбувається в реальному часі, що дозволяє користувачу одразу протестувати отриманий результат і внести корективи, якщо потрібно.
+        Кожен створений аромат автоматично зберігається у профілі користувача. Це дозволяє легко повторити або змінити композицію в майбутньому. Крім того, система використовує ці дані для генерування нових персоналізованих рекомендацій, враховуючи зміну уподобань чи нові запити.
+   8. Assumptions and Dependencies
+<Record any assumptions that were made when conceiving the project and writing this vision and scope document. Note any major dependencies the project must rely upon for success, such as specific technologies, third-party vendors, development partners, or other business relationships.>
+3. Scope and Limitations
+<The project scope defines the concept and range of the proposed solution. It’s also important to define what will not be included in the product. Clarifying the scope and limitations helps to establish realistic expectations of the many stakeholders. It also provides a reference frame against which proposed features and requirements changes can be evaluated. Proposed requirements that are out of scope for the envisioned product must be rejected, unless they are so beneficial that the scope should be enlarged to accommodate them (with accompanying changes in budget, schedule, and/or resources).>
+   9. Scope of Initial Release: Опис функціональності серверної частини та IoT-клієнта
+<Describe the intended major features that will be included in the initial release of the product. Consider the benefits the product is intended to bring to the various customer communities, and generally describe the product features and quality characteristics that will enable it to provide those benefits. Avoid the temptation to include every possible feature that any potential customer category might conceivably want some day. Focus on those features and product characteristics that will provide the most value, at the most acceptable development cost, to the broadest community.>
+Система "Elixír Nocturne" поєднує в собі серверну частину та IoT-диспансер, які разом забезпечують інтерактивний і персоналізований процес створення ароматів. Серверна частина виконує функції обробки даних, синхронізації запитів і передачі інструкцій IoT-диспансеру, тоді як диспансер фізично реалізує створення ароматичних композицій.
+        Серверна частина є центральним елементом системи, який керує всіма запитами користувачів і забезпечує їхню взаємодію з IoT-клієнтом. Реалізована на основі C# та .NET Core, серверна архітектура побудована для масштабованості, надійності та безпеки. Вона обробляє введені користувачем дані, такі як настрій, подія чи уподобання, і передає їх у модуль штучного інтелекту для аналізу. AI використовує ці дані для створення персоналізованих композицій, враховуючи гармонію нот, історію створених ароматів та поточні вподобання користувача. Результати аналізу передаються назад на сервер, де формуються рекомендації у вигляді готових ароматів або основних нот для подальшого налаштування.
+        Додатково сервер забезпечує управління профілями користувачів, включаючи збереження параметрів створених ароматів, історії їх редагування та загальних вподобань. Усі ці дані захищені сучасними технологіями шифрування, що відповідають міжнародним стандартам безпеки. Сервер також відповідає за синхронізацію роботи IoT-диспансера, передаючи команди, які визначають порядок змішування есенцій, їх пропорції та інтенсивність. Зворотний зв’язок від IoT-клієнта, зокрема інформація про статус виконання завдань чи проблеми в роботі (наприклад, закінчення рідини в резервуарах), також обробляється сервером для інформування користувача через мобільний додаток або веб-інтерфейс.
+        IoT-диспансер, у свою чергу, є апаратним компонентом, що забезпечує фізичне змішування ароматичних есенцій відповідно до інструкцій, отриманих від сервера. Пристрій оснащений кількома резервуарами для рідин, кожен із яких підключений до мікропомпи, яка точно дозує кількість есенції. Ці помпи керуються мікроконтролером (наприклад, ESP32), який приймає сигнали із серверу. Під час виконання процесу змішування IoT-диспансер враховує пропорції, задані користувачем, та коригує їх у реальному часі, якщо користувач вносить зміни через мобільний додаток. Пристрій також оснащений сенсорами, які вимірюють умови навколишнього середовища, такі як температура і вологість, що можуть впливати на інтенсивність або стабільність аромату. Ці дані передаються на сервер для аналізу, і на їх основі система може автоматично налаштовувати інтенсивність або склад аромату.
+        IoT-диспансер підтримує підключення через Wi-Fi або Bluetooth, що забезпечує стабільний зв’язок із сервером і синхронізацію даних. У разі помилок, таких як закінчення рідини або збій у роботі помп, IoT-диспансер надсилає відповідне повідомлення на сервер, а той передає сповіщення користувачеві.
+        Інтеграція серверної частини та IoT-клієнта забезпечує плавну роботу системи. Сервер виступає центральним вузлом, який збирає дані від користувачів, аналізує їх за допомогою AI і передає інструкції IoT-диспансеру. Диспансер, у свою чергу, виконує фізичне змішування ароматів і надає зворотний зв’язок, що дозволяє системі миттєво реагувати на зміни та забезпечувати точне виконання запитів користувача. Завдяки використанню сучасних технологій система може обслуговувати як індивідуальних користувачів удома, так і магазини, де IoT-диспансери допомагають створювати персоналізовані аромати для клієнтів.
+   10. Scope of Subsequent Releases: Опис функціональності веб-клієнта та мобільного клієнта
+<If a staged evolution of the product is envisioned over time, indicate which major features will be deferred to later releases.>
+Система "Elixír Nocturne" забезпечує інтеграцію через два основних користувацьких інтерфейси — веб-клієнт та мобільний додаток. Кожен із них має своє призначення, але обидва працюють синхронізовано, забезпечуючи безшовну інтеграцію з серверною частиною та IoT-диспансером. Веб-клієнт оптимізований для використання на комп’ютерах і великих екранах, тоді як мобільний додаток надає повну функціональність у форматі, адаптованому для смартфонів. Обидва інструменти призначені для надання користувачам доступу до створення, редагування та управління ароматичними композиціями у максимально зручний спосіб.
+        Веб-клієнт є інтуїтивно зрозумілим і адаптованим до використання на всіх сучасних браузерах, таких як Chrome або Edge. Головна його мета — забезпечити деталізований доступ до функцій платформи. Після входу до системи, користувач може створювати ароматичні композиції, використовуючи інструменти для вибору параметрів, таких як настрій, подія чи улюблені ноти. Ці дані передаються на сервер, де штучний інтелект обробляє інформацію та пропонує користувачу кілька варіантів композицій. Веб-клієнт дозволяє налаштовувати кожну композицію вручну через інтерактивні графічні інструменти, такі як слайдери та візуалізації пропорцій ароматичних нот.
+        Крім створення ароматів, веб-клієнт дозволяє користувачам керувати своїми профілями, зберігати створені композиції для подальшого використання, а також переглядати історію взаємодії з платформою. Він також інтегрується з IoT-диспансером, забезпечуючи управління пристроєм, включаючи передачу параметрів для змішування ароматів, моніторинг виконання завдань і отримання сповіщень про стан пристрою.
+        Мобільний додаток забезпечує доступність усіх функцій системи у зручному форматі для смартфонів. Він побудований з акцентом на мобільність, забезпечуючи швидкий вхід за допомогою Apple ID або біометричних даних, таких як Face ID чи Touch ID. Інтерфейс мобільного додатка оптимізований для швидкого доступу до основних функцій, дозволяючи користувачам створювати аромати, вводячи параметри, отримувати рекомендації від AI, а також налаштовувати пропорції ароматичних нот через інтуїтивні слайдери. Однією з ключових функцій мобільного додатка є можливість керування IoT-диспансером у реальному часі, дозволяючи запускати процес змішування, моніторити статус пристрою або отримувати сповіщення про завершення завдання.
+        Додаток підтримує офлайн-режим, у якому користувач може створювати та зберігати аромати локально на пристрої з подальшою синхронізацією із сервером після відновлення інтернет-з’єднання. Також він надає можливість замовлення фізичних ароматів, якщо IoT-диспансер недоступний, і додаткові функції, такі як інтеграція з календарем для створення ароматів під певні події або врахування геолокації користувача для адаптації інтенсивності ароматів залежно від погодних умов.
+        Синхронізація між веб-клієнтом і мобільним додатком забезпечує безперебійний досвід для користувача. Усі дії зберігаються на сервері, що дозволяє продовжувати роботу з будь-якого пристрою, незалежно від того, де вона була розпочата.
+   11. Limitations and Exclusions
+<Identify any product features or characteristics that a stakeholder might anticipate, but which are not planned to be included in the new product.>
+4. Business Context
+<This section summarizes some of the business issues around the project, including profiles of major customer categories, assumptions that went into the project concept, and the management priorities for the project.>
+   12. Stakeholder Profiles
+<Stakeholders are individuals, groups, or organizations that are actively involved in a project, are affected by its outcome, or can influence its outcome. The stakeholder profiles identify the customers for this product and other stakeholders, and states their major interests in the product. Characterize business-level customers, target market segments, and different user classes, to reduce the likelihood of unexpected requirements surfacing later that cannot be accommodated because of schedule or scope constraints. For each stakeholder category, the profile includes the major value or benefits they will receive from the product, their likely attitudes toward the product, major features and characteristics of interest, and any known constraints that must be accommodated. Examples of stakeholder value include:
+
+
+* improved productivity
+* reduced rework
+* cost savings
+* streamlined business processes
+* automation of previously manual tasks
+* ability to perform entirely new tasks or functions
+* conformance to current standards or regulations
+* improved usability or reduced frustration level compared to current applications
+
+
+Example:>
+
+
+
+Stakeholder
+	Major Value
+	
+Attitudes
+	
+Major Interests
+	
+Constraints
+	executives
+	increased revenue
+	see product as avenue to 25% increase in market share
+	richer feature set than competitors; time to market
+	maximum budget = $1.4M
+	editors
+	fewer errors in work
+	highly receptive, but expect high usability
+	automatic error correction; ease of use; high reliability
+	must run on low-end workstations
+	legal aides
+	quick access to data
+	resistant unless product is keystroke-compatible with current system
+	ability to handle much larger database than current system; easy to learn
+	no budget for retraining
+	
+
+   13. Project Priorities
+<Describe the priorities among the project’s requirements, schedule, and budget. The table below may be helpful in identifying the parameters around the project’s key drivers (top priority objectives), constraints to work within, and dimensions that can be balanced against each other to achieve the drivers within the known constraints. For more information, see chapter 2 of Creating a Software Engineering Culture by Karl E. Wiegers (Dorset House, 1996). Examples:>
+
+
+Dimension
+	Driver
+(state objective)
+	Constraint
+(state limits)
+	Degree of Freedom
+(state allowable range)
+	Schedule
+	release 1.0 to be available by 10/1, release 1.1 by 12/1
+	
+
+	
+
+	Features
+	
+
+	
+
+	70-80% of high priority features must be included in release 1.0
+	Quality
+	
+
+	
+
+	90-95% of user acceptance tests must pass for release 1.0, 95-98% for release 1.1
+	Staff
+	
+
+	maximum team size is 6 developers + 4 testers
+	
+
+	Cost
+	
+
+	
+
+	budget overrun up to 15% acceptable without executive review
+	
+
+   14. Operating Environment: Опис програмних засобів та інструментів
+<Describe the environment in which the system will be used and define the major availability, reliability, performance, and integrity requirements. This information will significantly influence the definition of the system’s architecture. Consider questions such as:
+* Are the users widely distributed geographically or located close to each other? How many time zones are they in?
+* When do the users in various locations need to access the system?
+* Where is the data generated and used? How far apart are these locations? Does the data from multiple locations need to be combined?
+* Are specific maximum response times known for accessing data that might be stored remotely?
+* Can the users tolerate service interruptions or is continuous access to the system critical for the operation of their business?
+* What access security controls and data protection requirements are needed?>
+
+
+Для розробки системи "Elixír Nocturne" використовується набір програмних засобів і інструментів, які забезпечують роботу серверної частини, веб-клієнта, мобільного додатка, бази даних та їх інтеграцію.
+Серверна частина (Back-end):
+        Серверна частина системи виконує ключову роль у реалізації бізнес-логіки, взаємодії з базою даних та забезпеченні комунікації між усіма компонентами системи. Для її створення обрано платформу .NET Core завдяки її підтримці сучасних стандартів розробки.
+        Основу серверної частини складає ASP.NET Core Web API, яка дозволяє створювати RESTful API для обміну даними між клієнтами та сервером. Вона забезпечує гнучкість у роботі з даними та легку інтеграцію з іншими компонентами системи. Для зручної роботи з базою даних використовується Entity Framework Core — ORM-інструмент, який дозволяє зберігати та обробляти дані через об’єктно-орієнтовані моделі, що прискорює процес розробки.
+        Для забезпечення аутентифікації та авторизації користувачів використовується Microsoft Identity, яка підтримує протоколи безпеки, такі як OAuth 2.0, і дозволяє реалізувати багатофакторну автентифікацію. Усі API будуть тестуватися за допомогою Postman, що дозволяє перевіряти правильність передачі даних і коректність обробки запитів.
+Веб-клієнт (Front-end):
+        Веб-клієнт системи реалізовано на основі React, сучасної бібліотеки для побудови інтерфейсів, яка забезпечує високу продуктивність і зручність використання. Завдяки React Router реалізується маршрутизація, що забезпечує плавний перехід між сторінками додатку без перезавантаження. Для управління станом додатку використовується Redux, який дозволяє синхронізувати дані між різними компонентами.
+        HTTP-запити для обміну даними із сервером виконуються за допомогою Axios, що забезпечує простоту та ефективність комунікації. Для створення сучасного дизайну інтерфейсу використовується бібліотека Material-UI, яка надає набір готових компонентів для швидкої реалізації зручного інтерфейсу.
+        Щоб забезпечити якість коду, у проєкті використовується ESLint, який допомагає дотримуватись стандартів написання JavaScript. Пакування додатку і його оптимізацію виконує Webpack, що забезпечує швидке завантаження сторінок і зручність використання на різних пристроях.
+Мобільний додаток:
+        Мобільний клієнт системи реалізується за допомогою React Native, який дозволяє створювати кросплатформні додатки з єдиною кодовою базою для iOS та Android. Цей підхід забезпечує нативну продуктивність і підтримку сучасних мобільних функцій.
+        У мобільному додатку для управління навігацією між екранами використовується React Navigation, яка забезпечує зручність у побудові багаторівневої архітектури додатку. Для зберігання даних на пристрої у локальному сховищі використовується AsyncStorage, що дозволяє зберігати налаштування та дані для роботи в офлайн-режимі.
+        Процес тестування додатку спрощується за допомогою Expo, який дозволяє швидко налаштувати середовище розробки та тестувати додаток на реальних пристроях. Додаток також підтримує надсилання push-сповіщень, що забезпечує користувачів актуальною інформацією про зміни статусу замовлень або роботу IoT-диспансера.
+База даних:
+        У системі для зберігання даних використовується Microsoft SQL Server, який забезпечує високу продуктивність і надійність для роботи з великими обсягами даних. Цей вибір дозволяє ефективно обробляти запити, зберігати профілі користувачів, дані про аромати та історію взаємодії.
+        Для адміністрування бази даних використовується SQL Server Management Studio (SSMS), який забезпечує зручний інтерфейс для управління таблицями, створення запитів та моніторингу продуктивності. 
+Додаткові інструменти:
+        Для створення та підтримки проєкту використовується Visual Studio Code, яке підтримує великий набір розширень для роботи як із серверною, так і з клієнтською частинами. Для управління версіями коду і співпраці між розробниками обрано Git і GitHub. Інтеграція із Docker дозволяє забезпечити контейнеризацію серверної частини для зручного тестування і розгортання.
+        Для створення дизайну інтерфейсів використовується Figma, яка забезпечує візуальну узгодженість усіх компонентів системи. Документування RESTful API виконується за допомогою Swagger, який автоматично генерує зрозумілу і деталізовану документацію для всіх маршрутів серверної частини.
